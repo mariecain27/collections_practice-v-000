@@ -33,3 +33,6 @@ def find_a(string_array)
   end
 end
 
+def sum_array(integer_array)
+  
+end
