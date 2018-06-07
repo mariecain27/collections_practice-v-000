@@ -46,6 +46,10 @@ def add_s(string_array)
     #end
   #end
     string_array.collect do |i|
-    i = i + "s"
+      if i == 1
+        i
+      else
+        i = i + "s"
+      end
     end
 end
