@@ -26,4 +26,10 @@ def kesha_maker(string_array)
     new_array << i
     end
   
+    #array.collect do |element|
+    #element[2] = "$"
+    #element
+    #end
+  
+  
 end
