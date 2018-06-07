@@ -36,3 +36,7 @@ end
 def sum_array(integer_array)
   integer_array.inject { |sum, n| sum + n }
 end
+
+def add_s(string_array)
+  
+end
