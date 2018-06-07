@@ -27,7 +27,8 @@ def kesha_maker(string_array)
     end
 end
 
-def find_a
-    array.select do |word|
-    word.chr == "a"
-  end
+def find_a(string_array)
+    if string_array.include?("a") 
+      string_array
+    end
+end
