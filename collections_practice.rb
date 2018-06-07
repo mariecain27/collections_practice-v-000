@@ -43,5 +43,6 @@ def add_s(string_array)
         i = i + "s"
       else
         i
+      end
     end
 end
