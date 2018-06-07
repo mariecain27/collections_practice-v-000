@@ -20,5 +20,9 @@ def reverse_array(integer_array)
 end
 
 def kesha_maker(string_array)
-  
+    array.collect do |element|
+    element[2] = "$"
+    element
+  end
+end
 end
