@@ -27,3 +27,4 @@ def kesha_maker(string_array)
     end
 end
 
+def find_a
