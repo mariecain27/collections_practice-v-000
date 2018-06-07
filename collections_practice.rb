@@ -28,7 +28,7 @@ def kesha_maker(string_array)
 end
 
 def find_a(string_array)
-  array.select do |start_with|
+  string_array.select do |start_with|
     start_with.chr == "a"
   end
 end
