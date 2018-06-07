@@ -32,3 +32,4 @@ def find_a(string_array)
     start_with.chr == "a"
   end
 end
+
