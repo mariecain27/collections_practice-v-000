@@ -38,7 +38,11 @@ def sum_array(integer_array)
 end
 
 def add_s(string_array)
-    string_array.each_with_index.collect do |i|
+    string_array.each_with_index.collect do |i, index|
+      if index == 1
+        i
+      else
         i = i + "s"
+      end
     end
 end
